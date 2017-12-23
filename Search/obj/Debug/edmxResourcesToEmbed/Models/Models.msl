@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SearchModelStoreContainer" CdmEntityContainer="SearchEntities">
+    <EntitySetMapping Name="info">
+      <EntityTypeMapping TypeName="SearchModel.info">
+        <MappingFragment StoreEntitySet="info">
+          <ScalarProperty Name="degree" ColumnName="degree" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
